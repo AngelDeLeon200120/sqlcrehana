@@ -1,3 +1,5 @@
+USE bd_compras;
+SET SQL_SAFE_UPDATES = 0;
 CREATE TABLE PRODUCTOS_Electronicos(
 productos_id int,
 nombre varchar(1000),
