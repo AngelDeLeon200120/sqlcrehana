@@ -46,8 +46,8 @@ GROUP BY pd.nombre
 ORDER BY importe desc;
 
 
-SELECT * FROM compras CS 
+SELECT * FROM compras C 
 LEFT JOIN productos PD ON 
 C.producto_id = PD.id 
 LEFT JOIN proveedores PV ON
-c.productos_id = PV.id;
+C.producto_id = PV.id;
